@@ -38,6 +38,7 @@ body{
     font-size: 7vh;
     left: 50%;
     top:55vh;
+    text-align: center;
     transform: translate(-50%);
 }
 .background2{
