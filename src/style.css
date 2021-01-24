@@ -19,7 +19,7 @@ body{
 .logo{
     position: absolute;
     height: 200px;
-    top: 60vh;
+    top: 35vh;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -37,7 +37,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 7vh;
     left: 50%;
-    top:35vh;
+    top:55vh;
     transform: translate(-50%);
 }
 .background2{
