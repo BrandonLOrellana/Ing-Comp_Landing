@@ -5,6 +5,7 @@
 }
 body{
     background-color: gray;
+    overflow-x: hidden;
 }
 .container{
     position: relative;
@@ -62,16 +63,30 @@ body{
 }
 .container2 header{
     position: absolute;
-    width: 100%;
+    width: 100vw;
     background-color: black;
-    height: 15%;
+    height: 20vh;
 }
 .container2 header h2{
+    padding-top: 5vh;
     display: flex;
     font-size: 8vh;
     font-family: 'Roboto', sans-serif ;
     color: white;
-    padding-left: 15%;
+    padding-left: 15vw;
+}
+
+.shade{
+    position:relative;
+    top: -80.5%; /* dato buscado a mano */
+    height: 80.5vh;
+    background: linear-gradient(black,rgba(0,0,0,0.2));
+
+    /*Quitar comentario para ver las orillas del div*/
+    
+    /* border: 1px solid; 
+    border-color: white; */
+    
 }
 .background2{
     width: 100%;
@@ -85,5 +100,4 @@ body{
     width: 60%;
     height: 50%;
     font-size: 42px;
-    background-color: rgba(0, 0, 0, 0.479);
 }
