@@ -6,15 +6,31 @@
 body{
     background-color: gray;
 }
+.container{
+    position: relative;
+}
 .background1{
         background-image: url("./pics/background.jpg");
-        position: relative;
         height: 100%;
         width: 100%;
         /* Center and scale the image nicely */
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    height: 10%;
+    font-size: 40px;
+    position: absolute;
+    top: 90%;
+    width: 100%;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
 }
 .logo{
     position: absolute;
