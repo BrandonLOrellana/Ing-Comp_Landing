@@ -51,10 +51,11 @@ body{
     height: 15%;
 }
 .container2 header h2{
+    display: flex;
     font-size: 8vh;
     font-family: 'Roboto', sans-serif ;
     color: white;
-    padding: 20px 0px 15px 15%;
+    padding-left: 15%;
 }
 .background2{
     width: 100%;
