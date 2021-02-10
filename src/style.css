@@ -83,10 +83,8 @@ body{
     background: linear-gradient(black,rgba(0,0,0,0.2));
 
     /*Quitar comentario para ver las orillas del div*/
-    
-    /* border: 1px solid; 
-    border-color: white; */
-    
+    /* Listo nomás lo reduje a una línea */
+    border: 1px solid white;
 }
 .background2{
     width: 100%;
