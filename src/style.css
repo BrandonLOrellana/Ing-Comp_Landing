@@ -55,11 +55,22 @@ body{
     background-image: url('./pics/background2.jpg');
     position: relative;
 }
-.graduationProfile header{
+.jobOportunities{
+    background-image: url(./pics/background3.jpg);
+}
+.impact{
+    position: relative;
+    background-image: url(./pics/background4.jpg);
+}
+.graduationProfile header,
+.jobOportunities header,
+.impact header{
     background-color: black;
     height: 20vh;
 }
-.graduationProfile header h2{
+.graduationProfile header h2,
+.jobOportunities header h2,
+.impact header h2{
     padding-top: 5vh;
     height: 50%;
     font-size: 8vh;
@@ -68,7 +79,7 @@ body{
     color: white;
     padding-left: 15vw;
 }
-.graduationProfile__paragraph{
+.commonSlide__paragraph{
     color: white;
     position: absolute;
     left: 15%;
@@ -77,9 +88,37 @@ body{
     height: 50vh;
     font-size: 42px;
 }
-.graduationProfile_shade{
+.commonSlide_shade{
     position: absolute;
     width: 100%;
     height: 80vh;
     background: linear-gradient(black,rgba(0,0,0,0.2));
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    bottom: 0;
+    position: absolute;
+    background-color: black;
+    height: 12vh;
+    width: 100%;
+}
+footer a{
+    font-size: 4vh;
+    width: 12vw;
+    height: 5vh;
+    padding-top:3vh;
+    padding-bottom: 3vh;
+    padding-left: 4vh ;
+    color: white;
+    text-decoration: none;
+}
+footer figure{
+    padding-right: 7vw;
+    display: flex;
+    width: 20vw;
+    justify-content: space-around;
+}
+footer figure img{
+    width: 20%;
 }
